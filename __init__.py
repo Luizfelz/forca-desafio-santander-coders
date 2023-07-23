@@ -1,73 +1,79 @@
-import os
-from funcoes import *
+# import all the functions from 'functions.py'
+from functions import *
 
+# main function
 def main():
   end = False
-  # saving the random selected word for the game in a variable called 'palavra'
-  palavra = read_txt()
+  # saving the random selected word for the game in a variable called 'word'
+  word = read_txt()
 
   # splits the word
-  letras_palavra = []
-  for letra in palavra:
-      letras_palavra.append(letra)
+  letters_word = []
+  for letter in word:
+      letters_word.append(letter)
 
   # getting the length of the word selected
-  tamanho_palavra = len(palavra)
+  len_word = len(word)
 
   # creates a string with the same length of the word, but with underlines 
-  palavra_underline = list('_'*tamanho_palavra)
+  word_underline = list('_'*len_word) 
 
-  # set the variable erro to zero
-  erro = 0
-
-  # prints the underline word
-  print('               ', ' '.join(palavra_underline))
-  print('\n')
+  # set the variable error to zero
+  error = 0
 
   # creates a list where the typed characters will be saved
-  letras_digitadas = []
+  typed_letters = []
 
   # begin the variable 'result' to get the result for each round
   result = ''
 
-  # begin the variable 'vitoria' to get the victory condition
-  vitoria = 0
+  # begin the variable 'victory' to get the victory condition
+  victory = 0
 
   while not end:
-      # for windows
-      if os.name == 'nt':
-          _ = os.system('cls')
+      # clear the prompt
+      clear_prompt()
 
-      # for mac and linux(here, os.name is 'posix')
-      else:
-          _ = os.system('clear')
+      # start the drawing 
+      errors(error)
 
-      # ------------------------------------------
-
-      # ini
-      erros(erro)
-      print('               ', ' '.join(palavra_underline))
+      # prints the secret word with underlines
+      print('               ', ' '.join(word_underline))
       print('\n')
-      print(f'Letras já digitadas: {letras_digitadas}')
-      print(f'Quantidade de erros: {erro} / 6')
+      
+      # shows the characters already typed
+      print(f'Typed characters: {typed_letters}')
+      
+      # shows the total amount of errors
+      print(f'Errors: {error} / 6')
       print('\n')
+      
+      # shows an informative message to the user: if he typed a wrong character or repeated a character
       print(result)
       print('\n')
-      result, letras_digitadas, erro, end, letras_palavra, palavra_underline, vitoria = tentativas(result, letras_digitadas, erro, end, letras_palavra, palavra_underline, vitoria)
 
-      if vitoria == 1:
+      # calls the function that verifies the attempt
+      result, typed_letters, error, end, letters_word, word_underline, victory = trys(result, typed_letters, error, end, letters_word, word_underline, victory)
+
+      #shows the final message to the user when the game finishes: 1 to WIN or 2 to LOST
+      if victory == 1:
+         clear_prompt()
+         errors(error)
          print('*-'*40)
          print('\n')
-         print(' '*15 + 'VOCÊ VENCEU !!!')
-         print(' '*15 + f'Você acertou a palavra secreta: {palavra.upper()}')
+         print(' '*15 + 'YOU WIN !!!')
+         print(' '*15 + f'You got the word right: {word.upper()}')
          print('\n')
          print('*-'*40)
-      elif vitoria == 2:
+      
+      elif victory == 2:
+         clear_prompt()
+         errors(error)
          print('*-'*40)
          print('\n')
-         print(' '*15 + 'VOCÊ PERDEU !!!')
-         print(' '*15 + f'Quantidade de erros: {erro} / 6')
-         print(' '*15 + f'A palavra secreta era: {palavra.upper()}')
+         print(' '*15 + 'YOU LOST !!!')
+         print(' '*15 + f'Errors: {error} / 6')
+         print(' '*15 + f'The secret word was: {word.upper()}')
          print('\n')
          print('*-'*40)
          
