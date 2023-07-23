@@ -33,6 +33,13 @@ The program will run and the game will start.
 
 ### ... by Colab or Jupyter notebook
 
-To run the Hangman Game throught Colab or Jupyter notebook, download the file 'game.ipynb' and open it with [Colab](https://colab.research.google.com/?utm_source=scs-index) or [Jupyter](https://jupyter.org/try-jupyter/retro/notebooks/?path=notebooks/Intro.ipynb).
+To run the Hangman Game throught Colab or Jupyter notebook, download the files:
+
+- game.ipynb
+- frutas.txt
+
+and put them in the same folder in the environment of the [Colab](https://colab.research.google.com/?utm_source=scs-index) or [Jupyter](https://jupyter.org/try-jupyter/retro/notebooks/?path=notebooks/Intro.ipynb). Then, open the 'game.ipynb' file.
 
 Or, if you prefer, click here: [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Luizfelz/forca-desafio-santander-coders/blob/main/game.ipynb)
+
+Remember: the 'frutas.txt' file must be placed in the same folder as the 'game.ipynb' file so that Colab or Jupyter notebook can run the program correctly.
