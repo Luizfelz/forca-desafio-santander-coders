@@ -43,3 +43,12 @@ e coloque-os na mesma pasta no ambiente de execução do [Colab](https://colab.r
 Ou, se preferir, clique aqui: [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Luizfelz/forca-desafio-santander-coders/blob/main/game.ipynb)
 
 Lembre-se: o arquivo 'frutas.txt' deve ser colocado na mesma pasta que o arquivo 'game.ipynb' para que o Colab ou Jupyter notebook possam executar o programa corretamente.
+
+---
+
+### Integrantes do grupo:
+
+- Carlos Arturo ([linkedin](https://www.linkedin.com/in/carlos-arturo-sued-barbosa-47773827/); [GitHub]())
+- Leonardo Reis ([linkedin](https://www.linkedin.com/in/leonardoreismanhaes/); [GitHub]())
+- Luiz Fonseca ([linkedin](https://www.linkedin.com/in/luizfsf/); [GitHub](https://github.com/Luizfelz))
+- Mariana Akeme ([linkedin](); [GitHub]())

@@ -43,3 +43,12 @@ and put them in the same folder in the environment of the [Colab](https://colab.
 Or, if you prefer, click here: [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Luizfelz/forca-desafio-santander-coders/blob/main/game.ipynb)
 
 Remember: the 'frutas.txt' file must be placed in the same folder as the 'game.ipynb' file so that Colab or Jupyter notebook can run the program correctly.
+
+---
+
+### Group members:
+
+- Carlos Arturo ([linkedin](https://www.linkedin.com/in/carlos-arturo-sued-barbosa-47773827/); [GitHub]())
+- Leonardo Reis ([linkedin](https://www.linkedin.com/in/leonardoreismanhaes/); [GitHub]())
+- Luiz Fonseca ([linkedin](https://www.linkedin.com/in/luizfsf/); [GitHub](https://github.com/Luizfelz))
+- Mariana Akeme ([linkedin](); [GitHub]())
