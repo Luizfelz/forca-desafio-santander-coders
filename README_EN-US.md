@@ -1,40 +1,38 @@
-# Projeto Forca
+# Hangman Project
+
+[PT-BR](https://github.com/Luizfelz/forca-desafio-santander-coders)
+
+The 'Hangman Projetc' is a challenge proposed by the professor of the first module of the Santander Coders program, in partnership with Ada, whose objective is to develop a code for the [Hangman Game](<https://en.wikipedia.org/wiki/Hangman_(game)>).
+
+The purpose of the challege was to make the students test their skills with the contents taught in the classroom, which included functions, lists, tuples, dictionaries, etc., in addition to enabling the evaluation of criteria such as code reprodutibility and clarity.
+
+The file 'enunciado.txt' contains the statement of the challege proposed by the professor (in Portuguese-Brazil), with details and necessary informations for its realization.
 
 ---
 
-[EN-US]()
+## Program execution...
 
-O 'Projeto Forca' é um desafio proposto pelo professor do primeiro módulo do programa Santander Coders, em parceria com a Ada, cujo objetivo é o desenvolvimento de um código do [Jogo da Forca](https://pt.wikipedia.org/wiki/Jogo_da_forca).
+### ...by terminal
 
-O propósito do desafio foi fazer com que os estudantes testassem suas habilidades com os conteúdos passados em sala de aula, que englobavam funções, listas, tuplas, dicionários, entre outros assuntos.
-
-O arquivo 'enunciado' contém o desafio proposto pelo professor, com os detalhes e informações necessárias para sua realização.
-
----
-
-## Execução do programa...
-
-### ...pelo terminal
-
-Para executar o programa do Jogo da Forca no terminal, faça o download dos arquivos:
+To run the Hangman Game throught the terminal, download the files:
 
 - app.py
 - \_\_init\_\_.py
 - funcoes.py
 - frutas.txt
 
-e salve todos numa mesma pasta.
+and save them all in the same folder.
 
-Em seguida, abra o terminal nesta pasta e execute o comando:
+Then, open the terminal in this folder and run the command:
 
 ```
 python app.py
 ```
 
-O programa será executado e o jogo se iniciará.
+The program will run and the game will start.
 
-### ... pelo Colab ou Jupyter notebook
+### ... by Colab or Jupyter notebook
 
-Para executar o programa do Jogo da Forca no Colab ou Jupyter notebook, faça download do arquivo 'game.ipynb' e abra-o com o Colab ou com o Jupyter.
+To run the Hangman Game throught Colab or Jupyter notebook, download the file 'game.ipynb' and open it with [Colab](https://colab.research.google.com/?utm_source=scs-index) or [Jupyter](https://jupyter.org/try-jupyter/retro/notebooks/?path=notebooks/Intro.ipynb).
 
-Ou, se preferir, clique aqui: [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Luizfelz/forca-desafio-santander-coders/blob/main/game.ipynb)
+Or, if you prefer, click here: [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Luizfelz/forca-desafio-santander-coders/blob/main/game.ipynb)

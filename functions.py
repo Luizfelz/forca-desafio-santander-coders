@@ -136,29 +136,47 @@ def errors(error):
 
 # checks the user attempt
 def trys(result, typed_letters, error, end, letters_word, word_underline, victory):
+  # saves the letter typed by the user
   letter_try = input('Type a letter: ').lower()
+
+  # checks if the typed is already in the list with all the typed letters. If TRUE, it returns a message stating that
   if letter_try in typed_letters:
     result = f'Try another letter. The letter [{letter_try}] has already been used!'
+  
   else:
+    # error quantity checker 
     count = 0
+
+    # error counter
     wrong_try = 0
+
+    # checks letter by letter in the secret word. If the typed letter is equal to a letter in the secret word, it substitute 
+    # the underline for the correct letter
     for letra in letters_word:
       if letter_try == letra:
         word_underline[count] = letter_try
         result = ''
+      
+      # if the letter is not in the secret word, it cunts 1 error and state it to the user
       else:
         wrong_try += 1
       count += 1
+    
+    # checks if the user typed a wrong letter and state it to the user, as long as the total amount of error is below the 
+    # maximum allowed (=6)
     if (count == wrong_try) and (error < 6):
       result = f'You missed! Try another letter.'
       error += 1
       errors(error)
     typed_letters.append(letter_try)
-
+  
+  # checks if all the letters in the secret word have already been discoverd. If so, it ends the game and state it to the user
   if letters_word == word_underline:
     victory = 1
     end = True
   
+  # checks the amount of errors commited by the user. If it is equal to the maximum error allowed (=6), it ends the game and
+  # state it tho the user
   if error == 6:
     victory = 2
     end = True
