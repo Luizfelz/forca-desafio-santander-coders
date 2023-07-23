@@ -1,3 +1,16 @@
+# clear the prompt
+def clear_prompt():
+    import os
+    # for windows
+    if os.name == 'nt':
+      _ = os.system('cls')
+
+    # for mac and linux(here, os.name is 'posix')
+    else:
+      _ = os.system('clear')
+
+# -----------------------------------------------------------------------------------------------------------------
+
 # read the txt file with the list of fruits available and return a random fruit from it
 def read_txt():
     import random
@@ -5,7 +18,6 @@ def read_txt():
 
     # getting a random number between 1 and 42
     number = random.randint(1,42) 
-    number
 
     # saving the 'number'th line from 'frutas.txt' in 'palavra'
     for palavra in range(number):
