@@ -5,7 +5,6 @@ def main():
   end = False
   # saving the random selected word for the game in a variable called 'palavra'
   palavra = read_txt()
-  print(palavra)
 
   # splits the word
   letras_palavra = []
