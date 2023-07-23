@@ -1,5 +1,9 @@
 # Projeto Forca
 
+---
+
+[EN-US]()
+
 O 'Projeto Forca' é um desafio proposto pelo professor do primeiro módulo do programa Santander Coders, em parceria com a Ada, cujo objetivo é o desenvolvimento de um código do [Jogo da Forca](https://pt.wikipedia.org/wiki/Jogo_da_forca).
 
 O propósito do desafio foi fazer com que os estudantes testassem suas habilidades com os conteúdos passados em sala de aula, que englobavam funções, listas, tuplas, dicionários, entre outros assuntos.
