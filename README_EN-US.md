@@ -14,16 +14,7 @@ The file 'enunciado.txt' contains the statement of the challege proposed by the 
 
 ### ...by terminal
 
-To run the Hangman Game throught the terminal, download the files:
-
-- app.py
-- \_\_init\_\_.py
-- funcoes.py
-- frutas.txt
-
-and save them all in the same folder.
-
-Then, open the terminal in this folder and run the command:
+To run the Hangman Game throught the terminal, clone this repository. Then, open the terminal in this folder and enter the command:
 
 ```
 python app.py
@@ -33,16 +24,9 @@ The program will run and the game will start.
 
 ### ... by Colab or Jupyter notebook
 
-To run the Hangman Game throught Colab or Jupyter notebook, download the files:
+To run the Hangman Game throught Colab or Jupyter notebook, clone this repository in a local folder. Then, open the 'game.ipynb' file using [Colab](https://colab.research.google.com/?utm_source=scs-index) or [Jupyter](https://jupyter.org/try-jupyter/retro/notebooks/?path=notebooks/Intro.ipynb). Make sure to have all the files in the same folder when opening in Colab or Jupyter.
 
-- game.ipynb
-- frutas.txt
-
-and put them in the same folder in the environment of the [Colab](https://colab.research.google.com/?utm_source=scs-index) or [Jupyter](https://jupyter.org/try-jupyter/retro/notebooks/?path=notebooks/Intro.ipynb). Then, open the 'game.ipynb' file.
-
-Or, if you prefer, click here: [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Luizfelz/forca-desafio-santander-coders/blob/main/game.ipynb)
-
-Remember: the 'frutas.txt' file must be placed in the same folder as the 'game.ipynb' file so that Colab or Jupyter notebook can run the program correctly.
+Or, if you prefer, click here to open it directly in Colab: [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Luizfelz/forca-desafio-santander-coders/blob/main/game.ipynb)
 
 ---
 

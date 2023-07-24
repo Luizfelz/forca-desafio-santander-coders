@@ -34,6 +34,9 @@ def main():
       # clear the prompt
       clear_prompt()
 
+      # hint
+      print('                Hint: it is a fruit!')
+
       # start the drawing 
       errors(error)
 

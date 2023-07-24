@@ -14,16 +14,7 @@ O arquivo 'enunciado.txt' contém o enunciado do desafio proposto pelo professor
 
 ### ...pelo terminal
 
-Para executar o programa do Jogo da Forca no terminal, faça o download dos arquivos:
-
-- app.py
-- \_\_init\_\_.py
-- funcoes.py
-- frutas.txt
-
-e salve todos numa mesma pasta.
-
-Em seguida, abra o terminal nesta pasta e execute o comando:
+Para executar o programa do Jogo da Forca no terminal do computador, clone este repositório em uma pasta local. Em seguida, abra o terminal nesta pasta e execute o comando:
 
 ```
 python app.py
@@ -33,16 +24,9 @@ O programa será executado e o jogo se iniciará.
 
 ### ... pelo Colab ou Jupyter notebook
 
-Para executar o programa do Jogo da Forca no Colab ou Jupyter notebook, faça download dos arquivos:
+Para executar o programa do Jogo da Forca no Colab ou Jupyter notebook, clone este repositório em uma pasta local. Em seguida, coloque os arquivos na mesma pasta do ambiente de execução do [Colab](https://colab.research.google.com/?utm_source=scs-index) ou [Jupyter](https://jupyter.org/try-jupyter/retro/notebooks/?path=notebooks/Intro.ipynb) e abra o arquivo 'game.ipynb'.
 
-- game.ipynb
-- frutas.txt
-
-e coloque-os na mesma pasta no ambiente de execução do [Colab](https://colab.research.google.com/?utm_source=scs-index) ou [Jupyter](https://jupyter.org/try-jupyter/retro/notebooks/?path=notebooks/Intro.ipynb). Em seguida, abra o arquivo 'game.ipynb'.
-
-Ou, se preferir, clique aqui: [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Luizfelz/forca-desafio-santander-coders/blob/main/game.ipynb)
-
-Lembre-se: o arquivo 'frutas.txt' deve ser colocado na mesma pasta que o arquivo 'game.ipynb' para que o Colab ou Jupyter notebook possam executar o programa corretamente.
+Ou, se preferir, clique aqui para abrir diretamente no Colab: [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Luizfelz/forca-desafio-santander-coders/blob/main/game.ipynb)
 
 ---
 

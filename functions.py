@@ -1,11 +1,7 @@
 # clear the prompt
 def clear_prompt():
     import os
-    from IPython.display import clear_output
 
-    # for Colab notebook or Jupyter notebook
-    clear_output(wait=True)
-    
     # for windows
     if os.name == 'nt':
       _ = os.system('cls')
