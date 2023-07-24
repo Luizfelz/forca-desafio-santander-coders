@@ -24,7 +24,7 @@ O programa será executado e o jogo se iniciará.
 
 ### ... pelo Colab ou Jupyter notebook
 
-Para executar o programa do Jogo da Forca no Colab ou Jupyter notebook, clone este repositório em uma pasta local. Em seguida, coloque os arquivos na mesma pasta do ambiente de execução do [Colab](https://colab.research.google.com/?utm_source=scs-index) ou [Jupyter](https://jupyter.org/try-jupyter/retro/notebooks/?path=notebooks/Intro.ipynb) e abra o arquivo 'game.ipynb'.
+Para executar o programa do Jogo da Forca no Colab ou Jupyter notebook, clone este repositório em uma pasta local. Em seguida, coloque os arquivos na mesma pasta do ambiente de execução do [Colab](https://colab.research.google.com/?utm_source=scs-index) ou [Jupyter](https://jupyter.org/try-jupyter/retro/notebooks/?path=notebooks/Intro.ipynb) e abra o arquivo 'game.ipynb'. **Certifique-se de que o Colab e o Jupyter possam ler todos os arquivos da mesma pasta ao abrir 'game.ipynb' com eles.**
 
 Ou, se preferir, clique aqui para abrir diretamente no Colab: [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Luizfelz/forca-desafio-santander-coders/blob/main/game.ipynb)
 

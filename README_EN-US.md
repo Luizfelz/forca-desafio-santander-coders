@@ -24,7 +24,7 @@ The program will run and the game will start.
 
 ### ... by Colab or Jupyter notebook
 
-To run the Hangman Game throught Colab or Jupyter notebook, clone this repository in a local folder. Then, open the 'game.ipynb' file using [Colab](https://colab.research.google.com/?utm_source=scs-index) or [Jupyter](https://jupyter.org/try-jupyter/retro/notebooks/?path=notebooks/Intro.ipynb). Make sure to have all the files in the same folder when opening in Colab or Jupyter.
+To run the Hangman Game throught Colab or Jupyter notebook, clone this repository in a local folder. Then, open the 'game.ipynb' file using [Colab](https://colab.research.google.com/?utm_source=scs-index) or [Jupyter](https://jupyter.org/try-jupyter/retro/notebooks/?path=notebooks/Intro.ipynb). **Make sure that Colab and Jupyter can read all the files from the same folder when opening 'game.ipynb' with them.**
 
 Or, if you prefer, click here to open it directly in Colab: [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Luizfelz/forca-desafio-santander-coders/blob/main/game.ipynb)
 
