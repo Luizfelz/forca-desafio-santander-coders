@@ -32,7 +32,7 @@ Or, if you prefer, click here to open it directly in Colab: [![Open in Colab](ht
 
 ### Group members:
 
-- Carlos Arturo ([linkedin](https://www.linkedin.com/in/carlos-arturo-sued-barbosa-47773827/); [GitHub]())
-- Leonardo Reis ([linkedin](https://www.linkedin.com/in/leonardoreismanhaes/); [GitHub]())
+- Carlos Arturo ([linkedin](https://www.linkedin.com/in/carlos-arturo-sued-barbosa-47773827/))
+- Leonardo Reis ([linkedin](https://www.linkedin.com/in/leonardoreismanhaes/))
 - Luiz Fonseca ([linkedin](https://www.linkedin.com/in/luizfsf/); [GitHub](https://github.com/Luizfelz))
-- Mariana Akeme ([linkedin](); [GitHub]())
+- Mariana Akeme
