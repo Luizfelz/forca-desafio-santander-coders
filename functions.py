@@ -27,6 +27,9 @@ def read_txt():
     # cleaning the '\n' from reading the line and saving only the word in 'word'
     word = word.split()[0]
 
+    # closes the file
+    fruits.close()
+
     # returning the 'number'th fruit from 'frutas.txt' list
     return word
 
