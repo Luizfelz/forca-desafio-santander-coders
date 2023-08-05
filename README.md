@@ -33,6 +33,5 @@ Ou, se preferir, clique aqui para abrir diretamente no Colab: [![Open in Colab](
 ### Integrantes do grupo:
 
 - Carlos Arturo ([linkedin](https://www.linkedin.com/in/carlos-arturo-sued-barbosa-47773827/))
-- Leonardo Reis ([linkedin](https://www.linkedin.com/in/leonardoreismanhaes/))
 - Luiz Fonseca ([linkedin](https://www.linkedin.com/in/luizfsf/); [GitHub](https://github.com/Luizfelz))
 - Mariana Akeme
